@@ -1,0 +1,115 @@
+#main {width: 100%; height: 100%}
+html, body {height: 100%;}
+input:focus, textarea:focus, select:focus  {outline:none;}
+a, span {font-family: Arial; color: #fff; text-decoration: none; text-transform: uppercase}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 0 -52px 0;
+    padding: 0;
+    background: url('../img/main-background.jpg');
+    font-family: Arial; color: #fff;
+}
+#footer-push, #footer {
+    height: 52px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+header {height: 174px; width: 100%}
+header .header-contain {width: 985px; margin: 0 auto; }
+header .header-contain:after {clear: both}
+header .header-contain a.logo {display: block; width: 400px; font-size: 29px; float: left;
+                                margin-top: 50px; line-height: 33px}
+header .header-contain a.logo img {float: left; margin-top: -1px; margin-right: 22px}
+
+header .header-contain .project {width: 165px; float: left; font-size: 18px;
+                                line-height: 20px; margin-left: 19px; margin-top: 63px;}
+header .header-contain .project a {text-decoration: underline}
+header .header-contain .project a:hover {text-decoration: none}
+header .header-contain a.add-color {display: block; float: right; margin-top: 72px;
+                                    font-size: 17.75px; text-decoration: underline}
+header .header-contain a.add-color:hover {text-decoration: none}
+header .header-contain a.add-color img {float: right; margin-top: -43px; margin-left: 11px}
+
+
+article {width: 100% }
+article .article-contain {width: 985px; margin: 0 auto}
+article .article-contain:after {clear: both; display: block; content: ""}
+article .article-contain .received-max {position: relative}
+article .article-contain .received-max:after {clear: both; display: block; content: ""}
+article .article-contain .received-max .text {float: left; position: absolute; top: -7px; left: -64px}
+article .article-contain .received-max .text span {font-size: 9.86px; display: block; float: right; clear: both}
+article .article-contain .received-max .line {width: 100%; background-color: #646464; height: 2px}
+
+article .article-contain table.city {float: left; clear: both; height: 290px}
+article .article-contain table.city tr td {vertical-align: bottom}
+article .article-contain table.city .house {float: left}
+article .article-contain table.city .house.red {position: relative}
+article .article-contain table.city .house .roof {background: url('../img/red-roof.png') no-repeat;
+                                            font-size: 22px; width: 63px; height: 24px; text-align: center;
+                                             padding-top: 51px; float: left}
+article .article-contain table.city .house ul {float: left; clear: both}
+article .article-contain table.city .house.red ul li {background: url('../img/red-house-floor.jpg') no-repeat;
+                                            width: 63px; height: 10px}
+article .article-contain table.city .house.red ul li:last-child {background: url('../img/red-house.jpg') no-repeat;
+                                                        width: 63px; height: 15px}
+article .article-contain table.city .house.red .nature {float: left; position: absolute; bottom: -2px; left: 63px}
+
+article .article-contain table.city .house.lighter-green {margin-left: 91px; position: relative}
+article .article-contain table.city .house.lighter-green .roof {background: url('../img/lighter-green-roof.png') no-repeat;
+                                                            font-size: 22px; width: 63px; height: 34px;
+                                                            padding-top: 27px; float: left}
+article .article-contain table.city .house.lighter-green ul li {background: url('../img/lighter-green-house-floor.jpg') no-repeat;
+                                                             width: 63px; height: 10px}
+article .article-contain table.city .house.lighter-green ul li:last-child {background: url('../img/lighter-green-house.jpg') no-repeat;
+                                                         width: 63px; height: 15px}
+article .article-contain table.city .house.lighter-green .nature {float: left; left: -30px; position: absolute; top: 101px; }
+
+
+article .article-contain table.city .house.blue {margin-left: 93px; position: relative}
+article .article-contain table.city .house.blue .roof {background: url('../img/blue-roof.png') no-repeat;
+    font-size: 22px; width: 63px; height: 28px;
+    padding-top: 36px; float: left}
+article .article-contain table.city .house.blue ul li {background: url('../img/blue-house-floor.png') no-repeat;
+    width: 63px; height: 10px}
+article .article-contain table.city .house.blue ul li:last-child {background: url('../img/blue-house.jpg') no-repeat;
+    width: 63px; height: 15px}
+article .article-contain table.city .house.blue .nature {position: absolute; bottom: -3px; left: -57px;}
+article .article-contain table.city .house.blue .nature2 {position: absolute; bottom: -3px; left: 39px;}
+article .article-contain table.city .house.blue .nature3 {position: absolute; bottom: -3px; left: 95px;}
+
+article .article-contain .participants-number {float: left; clear: both; margin-top: 48px; margin-left: -5px}
+article .article-contain .participants-number .number {float: left; font-size: 39px; color: #ffed00}
+article .article-contain .participants-number .participants {float: left; margin-left: 16px; margin-top: 4px}
+article .article-contain .participants-number .participants span {display: block; float: left; clear: both;
+                                                                font-size: 14px}
+
+
+#footer {width: 100%; background: #1c1c1c; opacity: 0.85; border-top: 2px solid #3d3d3d }
+#footer a {font-size: 12px}
+#footer a:hover {text-decoration: underline}
+#footer .footer-contain {width: 985px; margin: 0 auto; padding-top: 15px; position: relative}
+#footer .footer-contain:after {clear: both; display: block; content: ""}
+#footer .footer-contain ul.footer-links {float: left}
+#footer .footer-contain ul.footer-links li {float: left}
+#footer .footer-contain ul.footer-links li:not(:first-child) {margin-left: 27px}
+#footer .footer-contain a.pointer {background: url('../img/footer-pointer.png') no-repeat;
+                                    height: 16px; width: 50px; position: absolute;
+                                    display: block; left: 47.5%;}
+#footer .footer-contain a.socials {float: right; margin-top: 4px}
+
+
+
+
+
+
+
+
